@@ -1,0 +1,78 @@
+/* Variables */
+@media (max-width: 550px) {
+  .main--header ul {
+    display: none !important;
+  }
+  .main--header .logo {
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: start !important;
+  }
+}
+
+.main--header .cart--score__number {
+  top: 45% !important;
+}
+
+.bg-darck-color {
+  background-color: #404B5C;
+}
+
+.main--menu button {
+  border: none;
+}
+
+.main--menu .navbar-toggler:focus {
+  outline: none !important;
+}
+
+.main--menu .link-menu ul .nav-item .nav-link {
+  border-radius: 5px;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.main--menu .link-menu ul .nav-item .active {
+  background-color: #00D2D2;
+}
+
+.main--menu .link-menu ul .nav-item .nav-link:hover {
+  background-color: #00D2D2;
+  border-radius: 5px;
+}
+
+.bg-red-color {
+  background-color: #F72D5F;
+}
+
+.btn-green-color {
+  background-color: #00D2D2;
+}
+
+.btn-green-color:hover {
+  background-color: #0aadad;
+}
+
+.product .img-product {
+  background-color: #404B5C;
+}
+
+.product .card-img-overlay .category {
+  top: 10% !important;
+  left: 20% !important;
+}
+
+.product .card-img-overlay .btn-cart {
+  width: 100%;
+  z-index: 10;
+}
+
+.panel-body .pro-img-list .sub-img {
+  -ms-flex-preferred-size: 24%;
+      flex-basis: 24%;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
